@@ -7,6 +7,5 @@ export const readContacts = async () => {
     return JSON.parse(data);
   } catch (error) {
     console.log('Error reading contacts: ', error.message);
-    return [];
   }
 };
